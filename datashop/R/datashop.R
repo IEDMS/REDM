@@ -1,4 +1,4 @@
-###
+##########################################################################################################
 # Copyright (C) 2013
 # Carnegie Learning Inc.
 #
@@ -7,6 +7,7 @@
 #
 # This legend must continue to appear in the source code despite
 # modifications or enhancements by any party.
+##########################################################################################################
 
 ### Database Connection Stuff ###
 
@@ -23,13 +24,14 @@ if (!exists("default.connection"))
 #' 
 #' @param dbname the name of the database to connect to
 #' @param host the hostname of the database server
-#' @param usrpass the username and password to login with
+#' @param username the username to login with
+#' @param password the password to login with
 #' @param set.default.connection if true, the global variable default.connection will be set
 #' @export
-connect.to.db <- function( dbname, host='pslc-db', usrpass="dbreader", set.default.connection=TRUE )
+connect.to.db <- function( dbname, host, username, password, set.default.connection=TRUE )
 {
   drv <- dbDriver("MySQL")
-  conn <- dbConnect( drv, host=host,  user=usrpass, password=usrpass, dbname=dbname )
+  conn <- dbConnect( drv, host=host,  user=username, password=password, dbname=dbname )
   attr( conn,'has.rollup.table') <- check.rollup.table( dbname, conn )
   if( set.default.connection )
     default.connection <<- conn
@@ -276,3 +278,4 @@ get.skill.opps <- function( skill, conn=default.connection )
 	}
   results2opps( get.lc.data.norollup( skill, conn ) )
 }
+
