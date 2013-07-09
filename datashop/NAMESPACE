@@ -1,0 +1,7 @@
+export(connect.to.db)
+export(disconnect.from.db)
+export(get.curriculum.toc)
+export(get.lc.data.norollup)
+export(get.lc.data.rollup)
+export(get.skill.opps)
+export(results2opps)

@@ -1,0 +1,14 @@
+Package: datashop
+Type: Package
+Title: Functions for accessing and querying a Datashop-formatted MySQL database
+Version: 0.1
+Date: 2013-02-28
+Author: Tristan Nixon <tnixon@carnegielearning.com>
+Maintainer: Tristan Nixon <tnixon@carnegielearning.com>
+Description: More about what it does (maybe more than one line)
+License: CC BY-SA 3.0
+Depends:
+    DBI,
+    RMySQL
+Collate:
+    'datashop.R'
