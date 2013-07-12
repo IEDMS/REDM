@@ -1,3 +1,14 @@
+##########################################################################################################
+# Copyright (C) 2013
+# Carnegie Learning Inc.
+#
+# This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, 
+# http://creativecommons.org/licenses/by-sa/3.0/.
+#
+# This legend must continue to appear in the source code despite
+# modifications or enhancements by any party.
+##########################################################################################################
+
 ### Functions for plotting & working with learning curves ###
 
 #' The number of correct responses at each opportunity
