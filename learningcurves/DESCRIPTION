@@ -1,0 +1,13 @@
+Package: learningcurves
+Type: Package
+Title: Functions for plotting and analyzing learning curves
+Version: 0.1
+Date: 2013-03-04
+Author: Tristan Nixon <tnixon@carnegielearning.com>
+Maintainer: Tristan Nixon <tnixon@carnegielearning.com>
+Description: 
+License: CC BY-SA 2.0
+Depends:
+    boot
+Collate:
+    'learningcurves.R'

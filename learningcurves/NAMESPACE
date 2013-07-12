@@ -1,0 +1,7 @@
+export(basic.learning.curve.plot)
+export(find.cutoff.msk)
+export(fit.learning.curve)
+export(get.correct.from.opps)
+export(get.total.from.opps)
+export(lc.stats)
+export(plot.learning.curve)
