@@ -1,0 +1,12 @@
+Package: clidata
+Type: Package
+Title: Sample data and utility functions for some CLI data
+Version: 0.1
+Date: 2013-07-09
+Author: Tristan Nixon <tnixon@carnegielearning.com>
+Maintainer: Tristan Nixon <tnixon@carnegielearning.com>
+Description: Data from the 2009 Carnegie Learning Inc. Cognitive Tutor, Algebra
+    I linear word problem units, and some utility functions for accessing it.
+License: CC BY-SA 3.0
+Collate:
+    'clidata.R'
