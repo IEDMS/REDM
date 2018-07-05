@@ -1,4 +1,4 @@
-REDM
+mrt_REDM
 ====
 
-A collection of R packages for educational datamining
+A collection of R extension packages for educational datamining REDM.

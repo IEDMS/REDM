@@ -1,0 +1,7 @@
+packrat
+.RData
+.Rproj.user
+.Rhistory
+.Rprofile
+*.Rproj
+bkt
