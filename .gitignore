@@ -1,0 +1,11 @@
+.RData
+.Rproj.user
+.Rhistory
+.Rprofile
+*.Rproj
+bkt
+clidata
+datashop
+learningcurves
+packrat
+packrat/lib*/
