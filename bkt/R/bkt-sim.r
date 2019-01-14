@@ -100,7 +100,7 @@ bkt.sim <- function( n.students, k.opps, stu.params, mastery.params=stu.params, 
       mastered = logical(n.students)
     opps[ !mastered & known[,i], i ] = as.numeric( runif( sum(!mastered & known[,i]) ) < pc.known )
     opps[ !mastered & !known[,i], i ] = as.numeric( runif( sum(!mastered & !known[,i]) ) < pc.unknown )
-    pk[!mastered] = pknown.step( opps[!mastered,i], mastery.params, pk[!mastered] )
+    pk[!mastered] = posterior.pknown( opps[!mastered,i], mastery.params, pk[!mastered] )
   }
   results = list( opps=opps, known=known )
   if( is.numeric(mastery.threshold) ){
